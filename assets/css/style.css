@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444;
+  font-family: "Century Gothic","Open Sans", sans-serif;
+  color: #151414;
   font-weight: 700;
 }
 
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #header {
   height: 70px;
-  background: #fff;
+  background:rgba(0, 0, 0, 0.9);
   z-index: 997;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
 }
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-transform: uppercase;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #1c5c93;
+  color: #f4f7fa;
   text-decoration: none;
 }
 #header .logo img {
@@ -159,9 +159,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: #5c768d;
+  color: #f2f6f9;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #428bca;
+  color: #42ca62;
 }
 .navbar .dropdown ul {
   display: block;
@@ -473,7 +473,7 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5c768d;
+  color: #19191a;
 }
 .section-title p {
   margin-bottom: 0;
@@ -1177,7 +1177,7 @@ section {
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #5c768d;
+  background: #020202;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
   padding: 60px 0 30px 0;
