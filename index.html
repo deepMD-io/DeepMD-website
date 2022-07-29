@@ -7,7 +7,9 @@
     <title>DeepMD AI assisted Medical Image Analysis</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
-
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
@@ -39,12 +41,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
-    <!-- =======================================================
-  * Template Name: Mamba - v4.7.0
-  * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    
   </head>
 
   <body>
@@ -73,17 +70,17 @@
         <div class="logo me-auto">
           <h1><a href="index.html">DeepMD</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
         </div>
 
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
             
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto" href="#services">Solutions</a></li>
             <!-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
             <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#"
                 ><span>Demos</span> <i class="bi bi-chevron-down"></i
               ></a>
@@ -108,7 +105,7 @@
                 <li><a href="#">Drop Down 3</a></li>
                 <li><a href="#">Drop Down 4</a></li>
               </ul>
-            </li>
+            </li> -->
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
@@ -190,7 +187,7 @@
             <!-- Slide 3 -->
             <div
               class="carousel-item"
-              style="background-image: url('assets/img/contours.gif')"
+              style="background-image: url('assets/img/rediology.png')"
             >
               <div class="carousel-container">
                 <div class="carousel-content container">
@@ -242,10 +239,281 @@
     <!-- End Hero -->
 
     <main id="main">
+       <!-- ======= Solutiion nav-pill  Section ======= -->
+       <section id="services" class="services">
+        <div class="section-title">
+            <h2>Our AI Solutions</h2>
+          </div>
+       <div class="row">
+        <ul class="nav nav-pills justify-content-center"  style="font-size:150%;" role="tablist">
+          
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#home">Emergency Care</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu1">Primary Care</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu2">Oncology</a>
+            </li>
+       
+          </ul>
+        
+          <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+        <div class="container-fluid">
+            
+          <div class="row">
+            
+            
+            <div class="col-9 p-4">
+              <ol type="1">
+                <center><h1>Emergency Care</h1></center>
+                <div class="row">
+                  <div class="col-8 bg-light p-4">
+                    
+                    <h3><li>Intracranial Hemorrhages</li></h3>
+    
+                    Triage and notification software indicated for use in the
+                    analysis of non-enhanced head CT images; flags and communicates
+                    suspected positive findings of pathologies in head CT images,
+                    namely Intracranial Hemorrhage (ICH). Patients
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/head1.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 150px"
+                      />
+                    </center>
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-8 bg-light p-3">
+                    <h3><li>Ischemic Stroke</li></h3>
+    
+                    Triage and notification software indicated for use in the
+                    analysis of head CTA images; flags and communicates suspected
+                    positive findings of Ischemic Stroke Lesions (ISL(
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/head2.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 150px"
+                      />
+                    </center>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-8 bg-light p-3">
+                    <h3><li>Pulmonary Embolism</li></h3>
+    
+                    Triage and notification software indicated for use in the
+                    analysis of CTPA images; flags and communicates Pulmonary
+                    Embolism (PE).
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/PE.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 150px"
+                      />
+                    </center>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-8 bg-light p-3">
+                    <h3><li>Rib Fractures</li></h3>
+    
+                    Triage and notification software indicated for use in the
+                    analysis of chest CTs (with or without contrast); flags and
+                    communicates suspected cases of three or more acute Rib fracture
+                    (RibFx) pathologies.
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/PE.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 150px"
+                      />
+                    </center>
+                  </div>
+                </div>
+              </ol>
+            </div>
+    
+            <div class="col-3 bg-secondary  p-4">
+              <div class="card">
+                <div class="card-body">Basic card</div>
+              </div>
+              s
+              </center>
+              
+            </div>
+          </div>
+        </li>
+    </ul>
+        </div>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+        <div class="container-fluid">
+            
+          <div class="row">
+            
+            
+            <div class="col-9 p-4">
+              <ol type="1">
+                <center><h1>Primary Care</h1></center>
+                <div class="row">
+                  <div class="col-8 bg-light p-4">
+                    <h3><li>Chest X-Ray
+                    </li></h3>
+                    Automates detection of 13 abnormalities in an  X-Ray image and delivers customizable reporting within minutes --  that helps physicians and clinicians to confirm their diagnostic decisions and to increase the overall productivity to better focus on the patient
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/head1.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 200px"
+                      />
+                    </center>
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-8 bg-light p-3">
+                    <h3><li>Bone Fractures</li></h3>
+                    Detects bone fractures & joint dislocations of multiple body parts on MSK(Musculoskeletal) X-rays in less than a minute.This reduces the chances of late diagnoses, underdiagnoses, and even potential misdiagnoses to deliver better patient care.
+    
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/head2.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 200px"
+                      />
+                    </center>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-8 bg-light p-3">
+                    <h3><li>Lung Nodules Detection</li></h3>
+                    Auto lung nodules detection distinguishes lung lesions from complex anatomical structures on chest CTs which aids in early detection of lung cancer assisting  clinicians with the detection, quantification & characterization of lung nodules
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/PE.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 200px"
+                      />
+                    </center>
+                  </div>
+                </div>
+                
+              </ol>
+            </div>
+    
+            <div class="col-3 bg-secondary p-4">
+              <center>
+                <img
+                  src="assets/images/phone.png"
+                  alt="Italian Trulli"
+                  style="width: 200px; height: 400px"
+                />
+              </center>
+              <ol type="1">
+                <h3><li>Coffee</li></h3>
+                <h3><li>Coffee</li></h3>
+                <h3><li>Coffee</li></h3>
+              </ol>
+            </div>
+          </div>
+        </li>
+    </ul>
+        </div>
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+        <div class="container-fluid">
+            
+          <div class="row">
+            
+            
+            <div class="col-9 p-4">
+              <ol type="1">
+                <center><h1>Oncology</h1></center>
+                <div class="row">
+                  <div class="col-8 bg-light p-4">
+                    <h3><li>Auto Contours
+    
+                    </li></h3>
+                    Contours play a significant role in preparation of Radiotherapy. AI assisted contours segments Core Tumor Volume and Organs At Risk for Radiotherapy.
+                    Clinically validated auto contours are fast and accurate than manual contours. Auto contours eliminate Inter and Intra Observable Variance (IOV)
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/head1.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 200px"
+                      />
+                    </center>
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-8 bg-light p-3">
+                    <h3><li>AI assisted Pathology</li></h3>
+                    Rapidly distinguishes between normal and cancerous tissue supporting the pathologist in the quick detection of tumor areas
+                    Automatically scores a quantitative Gleason grade score and grade group from WSI, saving the pathologist time
+                    Provides visual feedback as it allows to view images in different magnifications, move in different x-y-z-locations, view image analysis results, and mark and measure significant features in the images
+                  </div>
+                  <div class="col-4 p-3">
+                    <center>
+                      <img
+                        src="assets/images/head2.png"
+                        alt="Italian Trulli"
+                        style="width: 150px; height: 200px"
+                      />
+                    </center>
+                  </div>
+                </div>
+                
+                
+              </ol>
+            </div>
+    
+            <div class="col-3 bg-secondary p-4">
+              <center>
+                <img
+                  src="assets/images/radtherapy.png"
+                  alt="Italian Trulli"
+                  style="width: 200px; height: 400px"
+                />
+              </center>
+              
+            </div>
+          </div>
+        </li>
+    </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+         <!-- ======= End Solutiion nav-pill  Section ======= -->
       
 
-      <!-- ======= About Lists Section ======= -->
-      <section class="about-lists">
+       <!-- ======= About Lists Section ======= -->
+       <section class="about-lists">
         <div class="container">
           <div class="section-title">
             <h2>Key Benefits</h2>
@@ -362,89 +630,6 @@
       </section>
 
       <!-- ======= Counts Section ======= -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Our AI Models</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-              <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
-              <h4 class="title"><a href="">Diagnostic Radiology</a></h4>
-              <p class="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident
-              </p>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon"><i class="bi bi-bounding-box"></i></div>
-              <h4 class="title"><a href="">Contours for Radiotherapy</a></h4>
-              <p class="description">
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat tarad limino ata
-              </p>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="icon"><i class="bi bi-globe"></i></div>
-              <h4 class="title">
-                <a href="">Multi-Organ Nuclei Segmentation</a>
-              </h4>
-              <p class="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur
-              </p>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="icon"><i class="bi bi-broadcast"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
-              </p>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="icon"><i class="bi bi-brightness-high"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
-              </p>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div class="icon"><i class="bi bi-calendar2-week"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam
-                libero tempore, cum soluta nobis est eligendi
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Services Section -->
 <!-- ======= About Us Section ======= -->
 <section id="about" class="about">
   <div class="container" data-aos="fade-up">

@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #topbar {
   background: #fff;
   border-bottom: 1px solid #eee;
-  font-size: 15px;
+  font-size: 18px;
   height: 40px;
   padding: 0;
 }
@@ -119,11 +119,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #f4f7fa;
+  color: #20a441;
   text-decoration: none;
+  font-size:200%;
 }
 #header .logo img {
   padding: 0;
@@ -1298,3 +1299,4 @@ section {
 #footer .credits a {
   color: #9eccf4;
 }
+
