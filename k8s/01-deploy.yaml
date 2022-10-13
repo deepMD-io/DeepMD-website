@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+
+kind: Deployment
+metadata:
+  name: pacs-web-deployment
+  namespace: deepmd-web
+spec:
+  selector:
+    matchLabels:
+      app: pacs-web
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: pacs-web
+    spec:
+      
+
+      containers:
+      - name: pacs-web
+      
+        image: anilyerramasu/pacs-web
+        
+        ports:
+          - containerPort: 80
+        imagePullPolicy: Always
+        
+        readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 30
+            periodSeconds: 3
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pacs-web-service
+  namespace: deepmd-web
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    name: http
+  selector:
+    app: pacs-web
